@@ -1,6 +1,6 @@
+import {Progressbar} from '../';
 import React from 'react';
 import styled from '@emotion/native';
-import {Progressbar} from '../';
 
 const StoryContainer = styled.View`
   flex: 1;

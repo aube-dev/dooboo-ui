@@ -82,7 +82,7 @@ describe('doobooContext', () => {
       });
 
       context('on mobile', () => {
-        given('deviceInfo', () => ({width: integerBetween(0, 767)}));
+        given('deviceInfo', () => ({width: integerBetween(0, 766)}));
 
         it('confirms that device is mobile', () => {
           expect(media.isMobile).toEqual(true);
